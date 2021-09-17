@@ -1,0 +1,111 @@
+:root {
+    --bg-color: white;
+    --bg-color-dark: rgb(0, 53, 83);
+    --btn-color: rgb(50, 66, 112);
+    --btn-color-dark: rgb(226, 226, 226);
+    --btn-txt-color-dark: rgb(32, 32, 32);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(11, 96, 145);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+.container {
+    margin: 30px auto;
+    border-radius: 25px;
+    width: 280px;
+    padding: 10px 5px 50px 5px;
+    transition: 0.5s;
+    background-color: var(--bg-color);
+}
+
+.dark-mode-label {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    user-select: none;
+}
+
+#dark-mode-input {
+    display: none;
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.container-top h1 {
+    color: rgb(155, 154, 154);
+}
+
+.painel-solar {
+    display: flex;
+}
+
+.painel-solar-div {
+    width: 22px;
+    height: 30px;
+    border: 1px solid rgb(218, 218, 218);
+    background-color: rgb(88, 88, 88);
+}
+
+.calculadora {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.display {
+    margin: 10px 0 15px 0;
+    font-size: 2em;
+    max-width: 240px;
+    text-align: right;
+    border: none;
+    background-color: rgb(133, 132, 132);
+    color: rgb(252, 252, 252);
+    outline: none;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.btn {
+    margin: 1.5px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 5px 0px gray;
+}
+
+.btn-num {
+    background: var(--btn-color);
+}
+
+.btn-clear {
+    background-color: rgb(219, 108, 29);
+}
+
+.btn-del {
+    background-color: rgb(219, 108, 29);
+}
+
+.btn-eq {
+    background-color: rgb(13, 99, 156);
+}
