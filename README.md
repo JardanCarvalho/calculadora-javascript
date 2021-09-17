@@ -26,5 +26,5 @@ Eu me inspirei na calculadora do google, assim como o professor. Poderia ter usa
 
 Bem, espero que tenha gostado, foi feito com carinho.
 
-Acesse o projeto: https://jardancarvalho.github.io/calcularadora-javascript/
+Acesse o projeto: https://jardancarvalho.github.io/calculadora-javascript/
 
