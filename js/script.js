@@ -43,6 +43,7 @@ function Calc() {
         });
     }
 
+
     this.apagaUm = () => {
         display.value = display.value.slice(0, -1);
     }
@@ -60,6 +61,8 @@ function darkMode() {
     const container = document.querySelector(".container");
     const btn = document.querySelectorAll(".btn-num");
 
+
+
     darkModeSlct.addEventListener("change", (e) => {
         if (darkModeSlct.checked) {
             darkModeLbl.innerHTML = "&#127770";
@@ -69,6 +72,7 @@ function darkMode() {
                 botao.style.color = "var(--btn-txt-color-dark)"
 
             }
+
         } else {
             darkModeLbl.innerHTML = "&#127773";
             container.style.backgroundColor = "var(--bg-color)";
@@ -81,6 +85,10 @@ function darkMode() {
     });
 }
 darkMode();
+
+
+
+
 
 const calculadora = new Calc();
 calculadora.inicia();
